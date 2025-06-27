@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="email">email</label><br>
+    <input type="email" id="alfa" placeholder="enter your password">
+    <br><br>
+    <label for="password">password</label><br>
+    <input type="password" id="gama" placeholder="enter your password">
+    <br><br>
+    <button onclick="bita()">LOGIN</button>
+</body>
+<script>
+    const plataniam ="vaibhav";
+    const dimand = "sonar"
+
+    
+
+
+    function bita() {
+        const gold =document.getElementById("alfa").value;
+    const silver =document.getElementById("gama").value; 
+    
+       if (plataniam === gold && silver === dimand) {
+
+        alert("welcome")
+        
+       } else {
+
+        alert("batamij")
+        
+       }
+       
+    }
+</script>
+</html>

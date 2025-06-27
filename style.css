@@ -1,0 +1,15 @@
+#giga{
+    border: 2px solid orange;
+    width: 180px;
+    margin-left: 60px;
+}
+button{
+    margin-left: 25%;
+}
+#ninja{
+    margin-top: -180px;
+    margin-left: 50%;
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
+}
