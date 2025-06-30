@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>clock</button>
+</body>
+<script>
+    let abc =document.querySelector("button");
+    let count =0
+
+    abc =addEventListener("click",function () {
+        count+=1;
+        
+        alert(`click here ${count}`)
+
+        if (count >3) {
+            alert("Your Account Deleted")
+            
+        }
+        
+    })
+</script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+    }
+    #btn{
+        margin-left: 30%;
+    }
+</style>
+<body>
+    <form>
+        <input type="text" placeholder="Write Your Email" id="email">
+        <br>
+        <br>
+        <input type="password" placeholder="Write Your password" id="pass">
+        <br>
+        <br>
+        <input type="submit" value="Submit" id="btn">
+    </form>
+</body>
+<script>
+let a =document.querySelector("form");
+let b =document.getElementById("email").value;
+let c =document.getElementById("pass").value;
+let d =document.getElementById("btn");
+
+a.addEventListener("submit",function() {
+    event.preventDefault()
+    
+
+    
+    
+})
+
+
+
+
+</script>
+</html>
